@@ -1,0 +1,11 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+from scipy.stats import linregress
+df = pd.read_csv('/content/drive/MyDrive/denis/accidentdataset.csv')
+plt.scatter(df['Speed Limit'], df['Accident Severity'], color='blue', label='Data Points')
+slope, intercept, r_value, p_value, std_err = linregress(df['Speed Limit'], df['Accident Severity'])
+plt.plot(df['Speed Limit'], slope * df['Speed Limit'] + intercept, color='red', label='Regression Line')
+plt.xlabel('Speed Limit')
+plt.ylabel('Accident Severity')
+plt.legend()
+plt.show()
