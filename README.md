@@ -3,3 +3,9 @@ output to show dependent and independent tables![independent and dependent table
 ploting data points ![data points](https://github.com/user-attachments/assets/10c131ea-0020-4e4a-8c06-3b021d86cb4a)
 linear regression line ![linear regression line](https://github.com/user-attachments/assets/020d2bb7-9ca0-429a-b425-3ac1ef6f1db3)
 
+ potential benefits for accident analysis and prevention:
+  Identify Key Risk Factors - Identifies the most significant contributing factors, such as road conditions and weather, on which interventions should be concentrated.
+
+Effective Use of Resources - Minimizes resources to high-risk areas, optimizing safety investments.
+
+Data-Driven Policy - Informs policies targeting behaviors-most notably speeding and seatbelt use-that can exacerbate the severity of accidents.
